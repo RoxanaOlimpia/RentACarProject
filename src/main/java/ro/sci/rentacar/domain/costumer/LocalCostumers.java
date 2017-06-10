@@ -1,9 +1,11 @@
-package ro.sci.rentacar.repository;
+package ro.sci.rentacar.domain.costumer;
+
+import ro.sci.rentacar.domain.costumer.Client;
 
 /**
  * Created by Roxana on 5/24/2017.
  */
-public class Foreigners implements Client {
+public class LocalCostumers implements Client {
     String name;
     String address;
     String phoneNumber;
@@ -16,5 +18,4 @@ public class Foreigners implements Client {
         System.out.println("Client returns the domain");
 
     }
-
 }
